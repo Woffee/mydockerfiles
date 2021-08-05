@@ -16,3 +16,5 @@ RUN pip install torch-scatter torch-sparse torch-cluster torch-spline-conv torch
 # RUN mv "/cfe-$(llvm-config --version).src" "/clang-source"
 # ENV PYTHONPATH "${PYTHONPATH}:/clang-source/bindings/python"
 
+RUN pip install keras_radam msgpack progressbar2 keras-rectified-adam tqdm
+RUN rm -rf ~/.cache/pip
