@@ -1,0 +1,8 @@
+clang
+llvm
+swig
+vim
+swi-prolog
+graphviz
+gcc-5
+openjdk-8-jdk
